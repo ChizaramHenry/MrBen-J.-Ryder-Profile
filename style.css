@@ -1,0 +1,103 @@
+html{
+	box-sizing: border-box;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+      /*==========================*/
+            /*MAIN STYLES*/
+      /*==========================*/
+.main-container{
+	padding-bottom: 2rem;
+	background-color: #1c3552;
+	padding: 5%;
+	padding-top: 0;
+}
+.orange-design{
+	margin-left: 12%;
+	height: 20rem;
+	width: 25%;
+	background-color: orange;
+}
+.bio-container{
+	margin-top: -2rem;
+	display: flex;
+	flex-flow: row wrap;
+}
+.bio-container>div{
+	margin: 2%;
+}
+.image{
+	flex-basis: 45%;
+}
+figure{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+img{
+width: 100%;
+height: 100%;	
+}
+.name{
+	flex-basis: 40%;
+	padding-top: 9rem;
+	text-align: center;
+}
+.ryder{
+	font-weight: 550;
+	color: orange;
+	font-size: 70px;
+}
+.ceo{
+	color: #fff;
+	font-weight: 600;
+	font-size: 40px;
+}
+.company{
+	font-size:40px; 
+	color: #fff;
+}
+hr{
+	margin-bottom: 3rem;
+	width: 25rem;
+	height: 0.5rem;
+	display:block;
+	font-size: 50px;
+	background-color: orange;
+}
+.about{
+	text-align: center;
+	font-size: 55px;
+	font-weight: 600;
+	margin-top: 4.5rem;
+	color: orange;
+}
+.paragraphs{
+	line-height: 45px;
+	color: #fff;
+	font-size: 45px;
+}
+
+
+
+
+
+
+
+@media(min-width: 1000px){
+	.name{
+	padding-top: 15rem;
+}
+.orange-design{
+	height: 14rem;
+}
+}
